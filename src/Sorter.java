@@ -1,3 +1,4 @@
+// 抽象排序类
 public abstract class Sorter {
 
     public Sorter(int[] array) {
