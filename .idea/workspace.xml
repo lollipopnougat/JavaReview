@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="59fd4733-6267-4f4f-9d79-501ca5260fe9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaReview/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaReview/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaReview/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaReview/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaReview/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaReview/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaReview/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaReview/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaReview/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaReview/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +36,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

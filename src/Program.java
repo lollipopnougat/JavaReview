@@ -5,8 +5,10 @@ public class Program {
         System.out.println("test");
         Square sq = new Square(3);
         System.out.println(Square.isSquareNum(36));
-        System.out.println(sq.getSqrtNM(10));
-        System.out.println(sq.getSqrtBBDS(1e-7));
+        System.out.println("控制次数的牛顿迭代 " + sq.getSqrtNM(4));
+        System.out.println("控制精度的牛顿迭代 " + sq.getSqrtNM2(1e-10));
+        System.out.println("Math.sqrt参考 " + Math.sqrt(3));
+        System.out.println("控制精度的二分查找 " + sq.getSqrtBBDS(1e-7));
         int[] arr = new int[]{9, 7, 3, 4, 1, 5, 6, 2, 8};
         int[] ar = new int[]{13, 89, 5, 16, 7, 5, 33, 49, 21, 36, 9, 17};
         System.out.println("原数组: ");
@@ -43,8 +45,17 @@ public class Program {
             System.out.print(i + " ");
         }
         System.out.println(" ");
+        System.out.println("快速排序2: ");
+        QuickSort.QSort(arr, 0, arr.length - 1);
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+        System.out.println(" ");
         Class cl = Class.forName("ClassTest");
-        ClassTest ct = (ClassTest) cl.getDeclaredConstructor().newInstance();
+        ClassTest ct = (ClassTest) cl.newInstance();
         System.out.println(ct.name);
     }
+
+
+
 }

@@ -39,4 +39,21 @@ public class QuickSort extends Sorter {
             quickSort(index + 1, high);
         }
     }
+
+    // 快速排序三分钟版(合并)
+    public static void QSort(int[] n, int l, int h) {
+        int ol = l;
+        int oh = h;
+        if (l < h) {
+            int t = n[l];
+            while (l < h) {
+                while (l < h && n[h] >= t)  h--;
+                n[l] = n[h];
+                while (l < h && n[l] <= t) l++;
+                n[l] = t;
+            }
+            QSort(n, ol, l - 1);
+            QSort(n, l + 1, oh);
+        }
+    }
 }

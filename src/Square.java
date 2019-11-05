@@ -31,7 +31,7 @@ public class Square {
         return true;
     }
 
-    // 牛顿迭代法
+    // 牛顿迭代法 控制迭代次数版
     public double getSqrtNM(int times) throws IllegalArgumentException {
         if (times <= 0) {
             throw new IllegalArgumentException("迭代次数非法");
@@ -40,6 +40,15 @@ public class Square {
         while (times > 0) {
             tmp = (tmp + number / tmp) / 2; // 迭代公式
             times--;
+        }
+        return tmp;
+    }
+    // 牛顿迭代法 控制精度版
+    public double getSqrtNM2(double precision) throws IllegalArgumentException {
+        if (precision >= 1 || precision < 0) throw new IllegalArgumentException("非法精度");
+        double tmp = number / 2; // 随便取
+        while (Math.abs(tmp * tmp - number) > precision) {
+            tmp = (tmp + number / tmp) / 2; // 迭代公式
         }
         return tmp;
     }
